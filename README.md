@@ -1,21 +1,17 @@
-<p align="center">
-  <a href="https://tushar-chy.medium.com/a-simple-todo-application-with-nestjs-typeorm-postgresql-swagger-pgadmin4-jwt-and-docker-caa2742a4295" target="_blank"> <img src="https://repository-images.githubusercontent.com/180571949/1816f680-a221-11ea-8ae0-8d90df8436bb" alt="Nest Logo" /></a>
-</p>
-
 ## Description
 
 A simple TODO application under Docker environment.
-* NestJS
-* TypeORM
-* PostgreSQL
-* Swagger
-* PGadmin4
-* JWT
-* Docker
 
-Go to [Medium](https://tushar-chy.medium.com/a-simple-todo-application-with-nestjs-typeorm-postgresql-swagger-pgadmin4-jwt-and-docker-caa2742a4295) to get the full tutorial.
+- NestJS
+- TypeORM
+- PostgreSQL
+- Swagger
+- PGadmin4
+- JWT
+- Docker
 
 # Running the app on docker
+
 ## Docker build & start
 
 ```bash
@@ -28,6 +24,7 @@ $ docker-compose up
 # remove docker container (services & networks)
 $ docker-compose down
 ```
+
 ## Migration
 
 ```bash
@@ -39,11 +36,13 @@ $ docker-compose run nestjs npm run typeorm:run
 ```
 
 # Running the app without docker
+
 ## Installation
 
 ```bash
 $ npm install
 ```
+
 ## Migration
 
 ```bash
